@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HQF.Tutorial.OAuth2.Authori
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HQF.Tutorial.OAuth2.ResourceServer", "Scr\HQF.Tutorial.OAuth2.ResourceServer\HQF.Tutorial.OAuth2.ResourceServer.csproj", "{3B893A16-34E7-42E7-A101-DD8A51766BB9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E86FB203-0F99-4966-96DA-C0EB36E7B6B7}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
