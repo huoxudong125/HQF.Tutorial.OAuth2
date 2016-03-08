@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HQF.Tutorial.OAuth2.AuthorizationServer", "Scr\HQF.Tutorial.OAuth2.AuthorizationServer\HQF.Tutorial.OAuth2.AuthorizationServer.csproj", "{339A73BD-CA61-43E7-8F22-AF8C1D2F43BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HQF.Tutorial.OAuth2.ResourceServer", "Scr\HQF.Tutorial.OAuth2.ResourceServer\HQF.Tutorial.OAuth2.ResourceServer.csproj", "{3B893A16-34E7-42E7-A101-DD8A51766BB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{339A73BD-CA61-43E7-8F22-AF8C1D2F43BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{339A73BD-CA61-43E7-8F22-AF8C1D2F43BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{339A73BD-CA61-43E7-8F22-AF8C1D2F43BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{339A73BD-CA61-43E7-8F22-AF8C1D2F43BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B893A16-34E7-42E7-A101-DD8A51766BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B893A16-34E7-42E7-A101-DD8A51766BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B893A16-34E7-42E7-A101-DD8A51766BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B893A16-34E7-42E7-A101-DD8A51766BB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
