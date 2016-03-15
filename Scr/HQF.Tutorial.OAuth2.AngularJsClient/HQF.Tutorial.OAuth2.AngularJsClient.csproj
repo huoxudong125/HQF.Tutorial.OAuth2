@@ -112,6 +112,10 @@
     <Content Include="content\css\loading-bar.css" />
     <Content Include="content\css\loading-bar.min.css" />
     <Content Include="scripts\angular-local-storage.min.js" />
+    <Content Include="scripts\angular-route.js" />
+    <Content Include="scripts\angular-route.min.js" />
+    <Content Include="scripts\angular.js" />
+    <Content Include="scripts\angular.min.js" />
     <Content Include="scripts\authComplete.js" />
     <Content Include="scripts\loading-bar.min.js" />
     <Content Include="index.html" />
