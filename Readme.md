@@ -10,7 +10,7 @@ Install-Package Microsoft.Owin.Security.OAuth -Version 2.1.0
 ```
 
 Important note:
-> In the initial post I was using package ¡°Microsoft.Owin.Security.OAuth¡± version ¡°3.0.0¡± which differs from the version used in the Authorization Server version ¡°2.1.0¡±, there was a bug in my solution when I was using 2 different versions, basically the bug happens when we send an expired token to the Resource Server, the result for this that Resource Server accepts this token even if it is expired. I¡¯ve noticed that the properties for the Authentication ticket are null and there is no expiry date. To fix this issue we need to unify the assembly version ¡°Microsoft.Owin.Security.OAuth¡± between the Authorization Server and the Resource Server, I believe there is breaking changes between those 2 versions that¡¯s why ticket properties are not de-crypted and de-serialized correctly.  Thanks for Ashish Verma for notifying me about this.
+> In the initial post I was using package ï¿½ï¿½Microsoft.Owin.Security.OAuthï¿½ï¿½ version ï¿½ï¿½3.0.0ï¿½ï¿½ which differs from the version used in the Authorization Server version ï¿½ï¿½2.1.0ï¿½ï¿½, there was a bug in my solution when I was using 2 different versions, basically the bug happens when we send an expired token to the Resource Server, the result for this that Resource Server accepts this token even if it is expired. Iï¿½ï¿½ve noticed that the properties for the Authentication ticket are null and there is no expiry date. To fix this issue we need to unify the assembly version ï¿½ï¿½Microsoft.Owin.Security.OAuthï¿½ï¿½ between the Authorization Server and the Resource Server, I believe there is breaking changes between those 2 versions thatï¿½ï¿½s why ticket properties are not de-crypted and de-serialized correctly.  Thanks for Ashish Verma for notifying me about this.
 
 
 ###How Generate MachineKey?
@@ -96,4 +96,4 @@ Here I Just use the MachineKey as follow:
 
 ```
 
-
+[Enable OAuth Refresh Tokens in AngularJS App using ASP .NET Web API 2, and Owin](http://bitoftech.net/2014/07/16/enable-oauth-refresh-tokens-angularjs-app-using-asp-net-web-api-2-owin/)
